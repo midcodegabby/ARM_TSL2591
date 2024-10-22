@@ -8,15 +8,15 @@ Things learned:
 - Enabling and using the FPU in ARM Cortex-M4 microcontrollers
 - Debugging I2C via Logic Analyzer
 
-Status:
+Status (10/21/2024):
 - In-Progress
 - Operational
-- Accuracy is low (30% to 50% off compared to Photone iPhone app measurements)
+- Accuracy has been increased in Low gain mode by multiplying LUX readings over 650 by a factor
+  of 1.6 and LUX readings under 300 by a factor of 0.8. Accuraccy is now around 90-95% of the values
+  from the Photone iPhone app (LUX meter app). This calibration was also done using the Photone app. 
 
 Next steps:
-- Function to change gain and integration time
 - Switch from ~5s busy loop polling to interrupt polling
-- Improve accuracy using different gains and integration times
 
 Possible future implementations:
 - Function to reset I2C bus from a deadlocked state
