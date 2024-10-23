@@ -21,5 +21,8 @@ Next steps:
 Possible future implementations:
 - Function to reset I2C bus from a deadlocked state
 
-Youtube video link (testing):
+Current, more accurate test video: 
+https://www.youtube.com/watch?v=m42UTxCefyY
+
+Old, less accurate test video:
 https://www.youtube.com/shorts/LOIbflBZAfY
